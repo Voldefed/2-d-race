@@ -226,8 +226,8 @@ function doing() {
   enemiesY3 -= enemiesYdy3;
   enemiesY4 -= enemiesYdy4;
   if (rightPressed && carX < canvas.width - carWidth) {
-    carX += 5;
+    carX += 6;
   } else if (leftPressed && carX > 0) {
-    carX -= 5;
+    carX -= 6;
   }
 }
