@@ -156,24 +156,28 @@ function collapse() {
   if (enemiesY > 900) {
     enemiesY = y;
     enemiesX = Math.random() * (canvas.width - enemiesWidth + 20);
+    enemiesYdy = Math.random() * (maxSpeed - minSpeed) + minSpeed;
   }
   if (enemiesY2 > 900) {
     enemiesY2 =
       Math.random() * (canvas.height - 900 - (canvas.height - 700)) +
       (canvas.height - 700);
     enemiesX2 = Math.random() * (canvas.width - enemiesWidth + 20);
+    enemiesYdy2 = Math.random() * (maxSpeed - minSpeed) + minSpeed;
   }
   if (enemiesY3 > 900) {
     enemiesY3 =
       Math.random() * (canvas.height - 900 - (canvas.height - 700)) +
       (canvas.height - 700);
     enemiesX3 = Math.random() * (canvas.width - enemiesWidth + 20);
+    enemiesYdy3 = Math.random() * (maxSpeed - minSpeed) + minSpeed;
   }
   if (enemiesY4 > 900) {
     enemiesY4 =
       Math.random() * (canvas.height - 900 - (canvas.height - 700)) +
       (canvas.height - 700);
     enemiesX4 = Math.random() * (canvas.width - enemiesWidth + 20);
+    enemiesYdy4 = Math.random() * (maxSpeed - minSpeed) + minSpeed;
   }
   if (roadY > 500) {
     roadY = 0;
